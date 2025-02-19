@@ -4,7 +4,7 @@ if SHIELD_KLOTZ_LEFT
         default "KLOTZ"
 
     config ZMK_SPLIT_BLE_ROLE_CENTRAL
-        default y
+        default n
 
 endif # LEFT
 
@@ -13,7 +13,7 @@ endif # LEFT
 if SHIELD_KLOTZ_LEFT || SHIELD_KLOTZ_RIGHT
 
     config ZMK_SPLIT
-        default y
+        default n
 
 endif # LEFT RIGHT
 
